@@ -20,7 +20,6 @@ public class NbpApiSteps {
                 .baseUri("http://api.nbp.pl/api")
                 .header("Accept", "application/json")
                 .when()
-
                 .get("/exchangerates/tables/A");
 
 
